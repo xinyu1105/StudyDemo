@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2971567C1F0C813500A89A63 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2971567B1F0C813500A89A63 /* app.plist */; };
+		2971567F1F0CE92D00A89A63 /* AppListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2971567E1F0CE92D00A89A63 /* AppListModel.m */; };
 		298FD5071F0B8FE6003F9C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD5061F0B8FE6003F9C9F /* main.m */; };
 		298FD50A1F0B8FE6003F9C9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD5091F0B8FE6003F9C9F /* AppDelegate.m */; };
 		298FD50D1F0B8FE6003F9C9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 298FD50C1F0B8FE6003F9C9F /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2971567B1F0C813500A89A63 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
+		2971567D1F0CE92D00A89A63 /* AppListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppListModel.h; sourceTree = "<group>"; };
+		2971567E1F0CE92D00A89A63 /* AppListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppListModel.m; sourceTree = "<group>"; };
 		298FD5021F0B8FE6003F9C9F /* StudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298FD5061F0B8FE6003F9C9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		298FD5081F0B8FE6003F9C9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +106,13 @@
 		298FD5041F0B8FE6003F9C9F /* StudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2971567B1F0C813500A89A63 /* app.plist */,
 				298FD5081F0B8FE6003F9C9F /* AppDelegate.h */,
 				298FD5091F0B8FE6003F9C9F /* AppDelegate.m */,
 				298FD50B1F0B8FE6003F9C9F /* ViewController.h */,
 				298FD50C1F0B8FE6003F9C9F /* ViewController.m */,
+				2971567D1F0CE92D00A89A63 /* AppListModel.h */,
+				2971567E1F0CE92D00A89A63 /* AppListModel.m */,
 				298FD50E1F0B8FE6003F9C9F /* Main.storyboard */,
 				298FD5111F0B8FE6003F9C9F /* Assets.xcassets */,
 				298FD5131F0B8FE6003F9C9F /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				TargetAttributes = {
 					298FD5011F0B8FE6003F9C9F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LAAJN2NAF;
 						ProvisioningStyle = Automatic;
 					};
 					298FD51A1F0B8FE6003F9C9F = {
@@ -246,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2971567C1F0C813500A89A63 /* app.plist in Resources */,
 				298FD5151F0B8FE6003F9C9F /* LaunchScreen.storyboard in Resources */,
 				298FD5121F0B8FE6003F9C9F /* Assets.xcassets in Resources */,
 				298FD5101F0B8FE6003F9C9F /* Main.storyboard in Resources */,
@@ -276,6 +286,7 @@
 				298FD50D1F0B8FE6003F9C9F /* ViewController.m in Sources */,
 				298FD50A1F0B8FE6003F9C9F /* AppDelegate.m in Sources */,
 				298FD5071F0B8FE6003F9C9F /* main.m in Sources */,
+				2971567F1F0CE92D00A89A63 /* AppListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
 				INFOPLIST_FILE = StudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TianCity.StudyDemo;
@@ -435,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LAAJN2NAF;
 				INFOPLIST_FILE = StudyDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TianCity.StudyDemo;
@@ -507,6 +520,7 @@
 				298FD5311F0B8FE6003F9C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298FD5321F0B8FE6003F9C9F /* Build configuration list for PBXNativeTarget "StudyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				298FD5341F0B8FE6003F9C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298FD5351F0B8FE6003F9C9F /* Build configuration list for PBXNativeTarget "StudyDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +538,7 @@
 				298FD5371F0B8FE6003F9C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
